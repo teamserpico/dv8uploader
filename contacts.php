@@ -1,4 +1,3 @@
-<?php error_reporting (E_ALL ^ E_NOTICE); ?>
 <?php
 
 
@@ -44,7 +43,7 @@
 		}
 	}
             
-    
+    <?php error_reporting (E_ALL ^ E_NOTICE); ?>
 
 
 
