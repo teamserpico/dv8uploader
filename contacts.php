@@ -1,5 +1,12 @@
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
 <?php
-	if($_POST['formSubmit'] !== "Submit") 
+
+
+
+
+
+
+	if($_POST['formSubmit'] == "Submit") 
     {
 		$errorMessage = "";
 		
