@@ -149,11 +149,11 @@
 						
 	<?php
 
-$connect = mysql_connect("mysql11.000webhost.com", "a4578459_bk", "aaaaaa03") or
+$connect = mysql_connect("a.db.shared.orchestra.io", "user_4251e530", "L&7h0H8AAfXHeM") or
 
 die ("Hey loser, check your server connection.");
 
-mysql_select_db("a4578459_save");
+mysql_select_db("db_4251e530");
 
 $quey1="select * from contacts";
 
