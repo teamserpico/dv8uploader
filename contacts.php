@@ -22,9 +22,9 @@
 
 		if(empty($errorMessage)) 
         {
-			$db = mysql_connect("mysql11.000webhost.com","a4578459_bk","aaaaaa03");
+			$db = mysql_connect("a.db.shared.orchestra.io","user_4251e530","L&7h0H8AAfXHeM");
 			if(!$db) die("Error connecting to MySQL database.");
-			mysql_select_db("a4578459_save" ,$db);
+			mysql_select_db("db_4251e530" ,$db);
 
 			$sql = "INSERT INTO contacts (moviename, yourname, Gender) VALUES (".
 							PrepSQL($varMovie) . ", " .
