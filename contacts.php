@@ -1,5 +1,5 @@
 <?php
-	if($_POST['formSubmit'] ==! "Submit") 
+	if($_POST['formSubmit'] !== "Submit") 
     {
 		$errorMessage = "";
 		
