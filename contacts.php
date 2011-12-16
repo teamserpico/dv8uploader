@@ -2,35 +2,12 @@
 
 
 
-// function: PrepSQL()
-    // use stripslashes and mysql_real_escape_string PHP functions
-    // to sanitize a string for use in an SQL query
-    //
-    // also puts single quotes around the string
-    //
-    function PrepSQL($value)
-    {
-        // Stripslashes
-        if(get_magic_quotes_gpc()) 
-        {
-            $value = stripslashes($value);
-        }
-
-        // Quote
-        $value = "'" . mysql_real_escape_string($value) . "'";
-
-        return($value);
-    }
-?>
 
 
 
 
 
-
-
-
-	if($_POST['formSubmit'] == "Submit") 
+	if($_POST['formSubmit'] ==! "Submit") 
     {
 		$errorMessage = "";
 		
